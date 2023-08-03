@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/dev-RowanSong/dev-RowanSong.github.io/static/css/main.21027b81.css",
-    "main.js": "/dev-RowanSong/dev-RowanSong.github.io/static/js/main.367b658c.js",
-    "static/js/787.1ed0c42c.chunk.js": "/dev-RowanSong/dev-RowanSong.github.io/static/js/787.1ed0c42c.chunk.js",
-    "static/media/test.png": "/dev-RowanSong/dev-RowanSong.github.io/static/media/test.de1cae48badaf9b1ab98.png",
-    "index.html": "/dev-RowanSong/dev-RowanSong.github.io/index.html",
-    "main.21027b81.css.map": "/dev-RowanSong/dev-RowanSong.github.io/static/css/main.21027b81.css.map",
-    "main.367b658c.js.map": "/dev-RowanSong/dev-RowanSong.github.io/static/js/main.367b658c.js.map",
-    "787.1ed0c42c.chunk.js.map": "/dev-RowanSong/dev-RowanSong.github.io/static/js/787.1ed0c42c.chunk.js.map"
+    "main.css": "/static/css/main.7011e14b.css",
+    "main.js": "/static/js/main.79a54939.js",
+    "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/test.png": "/static/media/test.de1cae48badaf9b1ab98.png",
+    "index.html": "/index.html",
+    "main.7011e14b.css.map": "/static/css/main.7011e14b.css.map",
+    "main.79a54939.js.map": "/static/js/main.79a54939.js.map",
+    "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.21027b81.css",
-    "static/js/main.367b658c.js"
+    "static/css/main.7011e14b.css",
+    "static/js/main.79a54939.js"
   ]
 }
