@@ -1,0 +1,16 @@
+.header-view {
+    width: 100%;
+}
+
+.mobile-header {
+    height: 80px;
+    background-color: blue;
+}
+
+.tablet-header {}
+
+.pc-header {
+    height: 120px;
+    background-color: red;
+}
+
