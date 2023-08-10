@@ -1,10 +1,11 @@
 import './App.css';
-import SpotLight from './container/SpotLight.js';
+import { Mobile, Tablet, PC } from './layout/ResponsiveView';
 
 function App() {
     return (
         <div className="App">
-            <SpotLight></SpotLight>
+            <Mobile></Mobile>
+            <PC size="768"></PC>
         </div>
     );
 }
