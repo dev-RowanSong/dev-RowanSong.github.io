@@ -8,7 +8,7 @@ import reportWebVitals from './reportWebVitals';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <React.StrictMode>
-        <BrowserRouter>
+        <BrowserRouter basename={process.env.PUBLIC_URL}>
             <style>
                 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@200;400;600;700&display=swap');
             </style>

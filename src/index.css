@@ -7,7 +7,6 @@ body {
     -moz-osx-font-smoothing: grayscale;
     width: 100vw;
     height: 100vh;
-    background: #1E1E1E;
 }
 
 #root {
@@ -15,6 +14,7 @@ body {
     height: 100%;
 }
 
+/* 모든 Component의 기본적으로 적용되는 내용 */
 * {
     box-sizing: border-box;
     font-size: 0;

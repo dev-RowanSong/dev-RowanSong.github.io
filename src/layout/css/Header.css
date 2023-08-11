@@ -1,16 +1,52 @@
+/**
+ * 모든 페이지에서 공통으로 보일 Header
+ * - 높이는 각 device마다 고정형으로 적용
+ */
 .header-view {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+
     width: 100%;
+    height: var(--height);
 }
 
 .mobile-header {
-    height: 80px;
-    background-color: blue;
+    --height: 80px;
+    --padding: 10px;
 }
 
-.tablet-header {}
+.tablet-header {
+    --height: 100px;
+    --padding: 15px;
+}
 
 .pc-header {
-    height: 120px;
-    background-color: red;
+    --height: 130px;
+    --padding: 20px;
 }
 
+/* logo area */
+.header-view .logo {
+    width: var(--height);
+    height: 100%;
+    flex: none;
+    padding: var(--padding);
+}
+
+/* navigation area */
+.header-view .nav {
+    flex: auto;
+    height: 100%;
+}
+
+/* page preferance button group area */
+.header-view .page-prefer {
+    display: flex;
+    align-items: center;
+
+    width: fit-content;
+    height: 100%;
+    padding: var(--padding);
+}
